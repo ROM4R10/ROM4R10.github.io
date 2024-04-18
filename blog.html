@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+        }
+
+        body{
+            background-color:#fff1e1;
+            color: #1d3c45;
+        }
+        
+        /* navigation navbar */
+        nav{
+            background-color:#1d3c45;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .logo{
+            display: flex;
+            padding: 18px;
+            padding-left: 5%;
+            font-size:25px;
+        }
+
+        .one{
+            color: white;
+            font-family:cursive;
+            font-weight: bold;
+            font-style: italic;
+            font-variant: small-caps;
+        }
+        .two{
+            color:#d2601a;
+            font-family:cursive;
+            font-weight: bold;
+            font-style: italic;
+            font-variant: small-caps;
+        }
+
+        .linknavbar{
+            display: flex;
+            margin: 27px;
+            list-style: none;
+            padding-right: 5%;
+        }
+
+        .linknavbar li a{
+            text-decoration: none;
+            padding: 5px;
+            color:white;
+            margin: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .linknavbar li a:hover{
+            color:#d2601a;
+        }
+
+        #active{
+            color: #d2601a;
+        }
+
+        .container{
+            padding: 7%;
+        }
+
+        .container-artikel .ul-artikel li{
+            list-style:none ;
+        }
+
+        .container-artikel .ul-artikel li a{
+            color: #fff1e1;
+            text-decoration: none;
+            background-color: #1d3c45;
+            border-radius: 10px;
+            padding: 5px;
+            font-weight: 600;
+        }
+
+        .container-artikel .ul-artikel li a:hover{
+            background-color:#d2601a;
+        }
+
+       
+        /* footer */
+        footer{
+            background-color:#d2601a;
+        }
+
+        .foot{
+            color:white;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <div class="one">Romario</div>
+                <div class="two">Pukul</div>
+            </div>
+
+            <ul class="linknavbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="container-header">
+            <h1>Artikel Terbaru</h1>
+        </div>
+
+        <br/><br/><br/>
+
+        <div class="container-artikel">
+            <ul class="ul-artikel">
+                <li>
+                    <h3>5 Merek Sepatu Olahraga Terbaik</h3><br/>
+                    <p>Nike adalah salah satu merek terkemuka dalam industri sepatu olahraga. Mereka dikenal karena inovasi teknologi seperti Nike Air, Zoom Air, dan Flyknit yang memberikan kenyamanan dan performa maksimal. Dengan desain yang stylish.....</p><br/>
+                    <a href="artikel-sport.html">Baca Selengkapnya...</a>
+                </li>
+
+                <br/><br/><br/>
+
+                <li>
+                    <h3>5 Game Puzzle Yang Wajib dimainkan di Android</h3><br/>
+                    <p>Game ini menawarkan pengalaman puzzle yang unik dengan desain visual yang menakjubkan. Pemain harus menavigasi karakter utama melalui struktur geometris yang kompleks, memanipulasi perspektif untuk menyelesaikan teka-teki. .....</p><br/>
+                    <a href="artikel-game.html">Baca Selengkapnya...</a>
+                </li>
+
+                <br/><br/><br/>
+
+                <li>
+                    <h3>5 Jenis Celana Pria yang Wajib Dimiliki</h3><br/>
+                    <p>Pilihan celana pria bisa menjadi hal yang cukup membingungkan. Dari jeans hingga celana formal, ada begitu banyak pilihan yang tersedia. Namun, ada beberapa jenis celana yang sebaiknya ada dalam lemari pakaian setiap pria. Inilah 5 jenis celana pria yang wajib dimiliki.....</p><br/>
+                    <a href="artikel-fashion.html">Baca Selengkapnya...</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <br/><br/><br/>
+
+    <footer>
+        <div class="foot">
+            Halaman Blog
+        </div>
+    </footer>
+</body>
+</html>

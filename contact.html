@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+        }
+
+        body{
+            background-color:#fff1e1;
+            color: #1d3c45;
+        }
+        
+        /* navigation navbar */
+        nav{
+            background-color:#1d3c45;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .logo{
+            display: flex;
+            padding: 18px;
+            padding-left: 5%;
+            font-size:25px;
+        }
+
+        .one{
+            color: white;
+            font-family:cursive;
+            font-weight: bold;
+            font-style: italic;
+            font-variant: small-caps;
+        }
+        .two{
+            color:#d2601a;
+            font-family:cursive;
+            font-weight: bold;
+            font-style: italic;
+            font-variant: small-caps;
+        }
+
+        .linknavbar{
+            display: flex;
+            margin: 27px;
+            list-style: none;
+            padding-right: 5%;
+        }
+
+        .linknavbar li a{
+            text-decoration: none;
+            padding: 5px;
+            color:white;
+            margin: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .linknavbar li a:hover{
+            color:#d2601a;
+        }
+
+        #active{
+            color: #d2601a;
+        }
+
+        .container{
+            text-align: center;
+        }
+
+        .container-form{
+            font-size: 20px;
+        }
+
+        .input-nama{
+            font-size: 20px;
+            background-color: #fff1e1;
+            border-radius: 5px;
+            border-style:solid;
+        }
+
+        .input-email{
+            font-size: 20px;
+            background-color: #fff1e1;
+            border-radius: 5px;
+            border-style:solid;
+        }
+
+        .input-message{
+            font-size: 22px;
+            background-color: #fff1e1;
+            border-radius: 5px;
+        }
+
+        .input-submit{
+            font-size: 12px;
+            padding: 2px;
+            border-radius: 5px;
+        }
+
+        .input-submit:hover{
+            color: white;
+            background-color:#1d3c45;
+        }
+
+        .container-sosmed{
+            font-size: 30px;
+            display: flex;
+            justify-content:center;
+        }
+
+        .container-sosmed .wa{
+            padding: 5px;
+        }
+
+        .container-sosmed .wa a{
+            color: #1d3c45;
+        }
+
+        .container-sosmed .tele{
+            padding: 5px;
+        }
+
+        .container-sosmed .tele a{
+            color: #1d3c45;
+        }
+
+        .container-sosmed .wa a:hover{
+            color:#d2601a;
+        }
+
+        .container-sosmed .tele a:hover{
+            color: #d2601a;
+        }
+
+
+        /* footer */
+        footer{
+            background-color:#d2601a;
+        }
+
+        .foot{
+            color:white;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <div class="one">Romario</div>
+                <div class="two">Pukul</div>
+            </div>
+
+            <ul class="linknavbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br/><br/><br/><br/><br/><br/>
+
+    <div class="container">
+        <div class="header-form">
+            <h1>Contact Us</h1>
+        </div>
+
+        <br/><br/>
+
+        <form class="container-form">
+            <div class="form-name">
+                <label for="name">Nama :</label>
+                <input class="input-nama" type="text" id="name" name="name">
+            </div>
+
+            <br/>
+
+            <div class="form-email">
+                <label for="email">Email :</label>
+                <input class="input-email" type="email" id="email" name="email">
+            </div>
+
+            <br/>
+
+            <div class="form-message">
+                <label for="message">Pesan :</label>
+                <textarea class="input-message" id="message" name="message"></textarea>
+            </div>
+
+            <br/>
+
+            <div class="submit">
+                <input class="input-submit" type="submit" value="Kirim Pesan" />
+            </div>
+        </form>
+    </div>
+
+    <br/><br/>
+
+
+
+    <div class="container-sosmed">
+        <div class="wa">
+            <a href="https://wa.link/f8jpdq">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="tele">
+            <a href="https://t.me/romariopukul">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+        </div>
+    </div>
+
+    <br/><br/><br/><br/>
+
+    <footer>
+        <div class="foot">
+            Halaman Contact
+        </div>
+    </footer>
+</body>
+</html>
