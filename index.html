@@ -148,5 +148,23 @@
             Halaman Home
         </div>
     </footer>
+
+    <script>
+    // JavaScript untuk menampilkan pesan selamat datang saat halaman dimuat
+    window.onload = function() {
+        alert("Selamat datang di Website Romario Pukul!");
+    };
+
+    // JavaScript untuk memperbesar gambar saat gambar dihover
+    var image = document.querySelector('.headpicture img');
+    image.addEventListener('mouseover', function() {
+        this.style.transform = 'scale(1.1)';
+    });
+
+    image.addEventListener('mouseout', function() {
+        this.style.transform = 'scale(1)';
+    });
+    </script>
+
 </body>
 </html>
